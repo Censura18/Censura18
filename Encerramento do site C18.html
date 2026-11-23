@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171311">
+  <meta name="description" content="Black Friday Censura 18 — confira a campanha e garanta suas peças.">
+  <title>Black Friday | Censura 18</title>
+  <style>
+    :root { color-scheme: dark; --bg: #171311; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--bg); color: #fff; font-family: Arial, Helvetica, sans-serif; }
+    main { width: min(100%, 780px); margin: 0 auto; padding: 24px 16px 48px; }
+    .page { display: block; width: 100%; height: auto; margin: 0 auto 12px; }
+    .last-page { position: relative; margin-bottom: 0; }
+    .last-page .page { margin-bottom: 0; }
+
+    /* CTA na própria arte (sem duplicidade): o pill "ACESSE JÁ O NOSSO LINK" da última
+       página vira a área clicável; um anel fino sinaliza que é botão. */
+    .cta-link {
+      position: absolute;
+      left: 17%;
+      top: 64.3%;
+      width: 66%;
+      height: 12.5%;
+      z-index: 3;
+      display: block;
+      border-radius: 12px;
+      cursor: pointer;
+      touch-action: manipulation;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, .15);
+    }
+    .cta-link:focus-visible { outline: none; }
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    .cta-ring {
+      position: absolute;
+      left: 27.2%;
+      top: 65.7%;
+      width: 45.6%;
+      height: 4.7%;
+      z-index: 4;
+      border: 1px solid rgba(255, 255, 255, .45);
+      border-radius: 999px;
+      pointer-events: none;
+      transition: border-color .15s ease, box-shadow .15s ease;
+    }
+    .cta-link:hover ~ .cta-ring,
+    .cta-link:focus-visible ~ .cta-ring {
+      border-color: rgba(255, 255, 255, .95);
+      box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+    }
+
+    @media (max-width: 560px) {
+      main { padding: 0 0 30px; }
+      .page { margin-bottom: 5px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .cta-ring { transition: none; }
+    }
+    @media print {
+      .cta-ring { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <main aria-label="Campanha Black Friday Censura 18">
+    <img class="page" src="assets/black-friday/page-01.jpg" alt="Página 1 da campanha Black Friday Censura 18" fetchpriority="high">
+    <img class="page" src="assets/black-friday/page-02.jpg" alt="Página 2 da campanha Black Friday Censura 18" loading="lazy">
+    <img class="page" src="assets/black-friday/page-03.jpg" alt="Página 3 da campanha Black Friday Censura 18" loading="lazy">
+    <img class="page" src="assets/black-friday/page-04.jpg" alt="Página 4 da campanha Black Friday Censura 18" loading="lazy">
+    <img class="page" src="assets/black-friday/page-05.jpg" alt="Página 5 da campanha Black Friday Censura 18" loading="lazy">
+    <img class="page" src="assets/black-friday/page-06.jpg" alt="Página 6 da campanha Black Friday Censura 18" loading="lazy">
+    <img class="page" src="assets/black-friday/page-07.jpg" alt="Página 7 da campanha Black Friday Censura 18" loading="lazy">
+    <img class="page" src="assets/black-friday/page-08.jpg" alt="Página 8 da campanha Black Friday Censura 18" loading="lazy">
+    <img class="page" src="assets/black-friday/page-09.jpg" alt="Página 9 da campanha Black Friday Censura 18" loading="lazy">
+    <img class="page" src="assets/black-friday/page-10.jpg" alt="Página 10 da campanha Black Friday Censura 18" loading="lazy">
+    <img class="page" src="assets/black-friday/page-11.jpg" alt="Página 11 da campanha Black Friday Censura 18" loading="lazy">
+    <img class="page" src="assets/black-friday/page-12.jpg" alt="Página 12 da campanha Black Friday Censura 18" loading="lazy">
+    <img class="page" src="assets/black-friday/page-13.jpg" alt="Página 13 da campanha Black Friday Censura 18" loading="lazy">
+    <img class="page" src="assets/black-friday/page-14.jpg" alt="Página 14 da campanha Black Friday Censura 18" loading="lazy">
+    <img class="page" src="assets/black-friday/page-15.jpg" alt="Página 15 da campanha Black Friday Censura 18" loading="lazy">
+    <img class="page" src="assets/black-friday/page-16.jpg" alt="Página 16 da campanha Black Friday Censura 18" loading="lazy">
+    <img class="page" src="assets/black-friday/page-17.jpg" alt="Página 17 da campanha Black Friday Censura 18" loading="lazy">
+    <img class="page" src="assets/black-friday/page-18.jpg" alt="Página 18 da campanha Black Friday Censura 18" loading="lazy">
+    <img class="page" src="assets/black-friday/page-19.jpg" alt="Página 19 da campanha Black Friday Censura 18" loading="lazy">
+    <img class="page" src="assets/black-friday/page-20.jpg" alt="Página 20 da campanha Black Friday Censura 18" loading="lazy">
+    <div class="page last-page">
+      <img class="page" src="assets/black-friday/page-21.jpg" alt="Realizamos entregas! Garanta já as suas peças. Acesse já nosso link: Censura18.my.canva.site/c18" loading="lazy">
+      <a class="cta-link" href="https://censura18.my.canva.site/c18" target="_blank" rel="noopener noreferrer" aria-label="Clique aqui no nosso link: censura18.my.canva.site/c18"><span class="sr-only">Clique aqui no nosso link: censura18.my.canva.site/c18</span></a>
+      <span class="cta-ring" aria-hidden="true"></span>
+    </div>
+  </main>
+</body>
+</html>
